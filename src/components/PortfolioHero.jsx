@@ -15,10 +15,11 @@ const PortfolioHero = () => {
       </div>
 
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid md:grid-cols-2 gap-12 items-center mt-8">
+        <div className="grid md:grid-cols-2 gap-12 items-center mt-10">
           <motion.div {...fadeIn}>
 
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+              <h2 className="block bg-gradient-to-r from-accentTeal to-accent bg-clip-text text-transparent">Rimsha Tahir,</h2>
               Meta Certified
               <span className="block bg-gradient-to-r from-accent to-accentTeal bg-clip-text text-transparent">
                 Digital Marketing Expert
